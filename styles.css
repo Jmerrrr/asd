@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-image: linear-gradient(to bottom, #370509, #5f2637, #834a69, #a273a0, #baa0d9);
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+  color: #fdf0d5;
+  background-color: #669bbc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25vw;
+  margin-top: 10px;
+}
+
+.chat {
+  margin-top: 20px;
+  background-image: linear-gradient(to right top, #b67a7e, #b95979, #b23483, #980d9a, #5c0fb8);
+  width: 50%;
+  height: 80vh;
+  text-align: center;
+  margin-left: 25vw;
+  border-radius: 20px;
+}
+
+.prompt {
+  position: relative;
+  top: 10px;
+  left:100px;
+  background-color:rgba(255, 255, 255, 0.6);
+  height: 60px;
+  border-top-left-radius: 10px;
+  width: 80%;
+
+}
+
+
+.gg-bot {
+  position: absolute;
+  left:-70px;
+  top: 30px;
+  background-color: #5c0fb8;
+  scale: 2.2;
+}
+
+ .icon-circle{
+  overflow: hidden;
+  background-color: blueviolet;
+  width: 70px;
+  height: 65px;
+  border-radius: 50px;
+  position: absolute;
+  left: -95px;
+}
+
+form .insert  {
+  position: absolute;
+  outline: none;
+  width: 90%;
+  height: 40px;
+  border: #370509;
+  border-radius: 10px;
+  margin-left: -230px;
+  margin-bottom: 60px;
+  padding-left: 10px;
+
+}
+
+.answer {
+  position: relative;
+  top: 40px;
+  background-color:rgba(255, 255, 255, 0.6);
+  height: 60px;
+  width: 80%;
+  padding: 10px;
+  margin-left: 10px;
+  border-top-right-radius: 10px;
+}
+
+.txt-area {
+  position: absolute;
+  width: 92%;
+  height: 40px;
+  background-color:white;
+  border-radius: 10px;
+  bottom: 10px;
+
+}
+
+
+.gg-userlane {
+  position: absolute;
+  padding: 2px;
+  left: 557px;
+  top: 25px;
+  scale: 1.9;
+}
+
+.icon-circle-2 {
+  position: absolute;
+  overflow: hidden;
+  background-color: blueviolet;
+  width: 70px;
+  height: 65px;
+  border-radius: 50px;
+  position: absolute;
+  left: 540px;
+  bottom: -5px;
+}
+
+
